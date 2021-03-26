@@ -1,15 +1,20 @@
 body {
     background-color: whitesmoke;
     color: black;
+    text-align: center;
 }
 
-/* dark mode toggle */
-.dark_mode {
+/* Dark mode toggle CSS differences */
+.body {
     background-color: midnightblue;
     color: white;
 }
 
+/* The light mode toggle button */
 #LMT {
+    position: absolute;
+    top: 15;
+    right: 0;
     color: black;
     background-color: whitesmoke;
     border: 20px;
@@ -18,4 +23,36 @@ body {
 
 .title {
     text-align: center;
+}
+
+/* Quotations + Quotation immages */
+.no_quotations {
+    width: 699;
+    height: 482;
+    padding-right: 10px;
+    padding-top: 20px;
+    float: right;
+}
+
+.with_quotations {
+    width: 33%;
+    height: 33%;
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+    border-width: 10px;
+    border-color: white;
+}
+
+.without_quotations_text {
+    padding-left: 100px;
+    padding-top: 20px;
+    float: center;
+    
+}
+
+.with_quotations_text {
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
 }
