@@ -16,6 +16,6 @@ let light_mode_toggle = () => {
     {
         toggle.innerText = "Dark mode toggle!"
         toggle.style.backgroundColor = "black"
-        toggle.style.color = "whitesmoke"
+        toggle.style.color = "#ffffff"
     }
 }
