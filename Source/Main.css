@@ -1,4 +1,51 @@
+/* Tip 1 */
+.fullQuestion {
+    
+}
+
+/* Tip 2 */
+.tip2 {
+    position: relative;
+    text-align: center;
+    object-fit: scale-down;
+}
+
+/* Quotations + Quotation immages */
+#with_quotations {
+    margin: auto;
+    display: none;
+    border-color: white;
+    position: relative;
+}
+
+
+#no_quotations {
+    width: 699;
+    height: 482;
+    display: none;
+    margin: auto;
+    position: relative;
+}
+
+#NQT {
+    background-color: transparent;
+    margin: auto;
+    color: blueviolet;
+    display: block;
+    border: 0;
+}
+
+#QT {
+    background-color: transparent;
+    margin: auto;
+    color: blueviolet;
+    display: block;
+    border: 0;
+}
+
+/*Main things*/
 body {
+    font-family: sans-serif;
     background-color: #ffffff;
     color: black;
     text-align: center;
@@ -13,10 +60,10 @@ body {
 /* The light mode toggle button */
 #LMT {
     position: absolute;
-    top: 15;
-    right: 0;
-    color: black;
-    background-color: whitesmoke;
+    top: 15px;
+    right: 5px;
+    color: white;
+    background-color: transparent;
     border: 20px;
     border-radius: 10px;
 }
@@ -25,34 +72,11 @@ body {
     text-align: center;
 }
 
-/* Quotations + Quotation immages */
-.no_quotations {
-    width: 699;
-    height: 482;
-    padding-right: 10px;
-    padding-top: 20px;
-    float: right;
-}
-
-.with_quotations {
-    width: 33%;
-    height: 33%;
-    padding-left: 10px;
-    padding-top: 20px;
-    float: left;
-    border-width: 10px;
-    border-color: white;
-}
-
-.without_quotations_text {
-    padding-left: 100px;
-    padding-top: 20px;
-    float: center;
+.Yasahiro {
+    text-align: left;
+    position: sticky;
+    font-family: 'Times New Roman', Times, serif;
     
-}
-
-.with_quotations_text {
-    padding-left: 10px;
-    padding-top: 20px;
-    float: left;
+    bottom: 20px;
+    font-weight: 900;
 }

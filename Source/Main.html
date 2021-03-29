@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+    <title>How to google effectively</title>
     <link rel="stylesheet" href="Main.css">
     <script src="Main.js"></script>
 </head>
@@ -13,9 +14,36 @@
             <h2 class="title">So here are some tips to help improve your efficiency with googling.</h2>
         </p>
     </div>
-    <div class="tip1"> <!-- Tip #1 div -->
+    <div class="tip1">
         <p>
-            <h3>The #1 tip anyone could give is..</h3> 
+            <h3>The #1 tip I could give is to narrow down your search</h3>
+            What I mean by this, is instead of posting your <b>ENTIRE</b> questions, only put the <b><u><i>important</i></u></b> words
+        </p>
+        <p>
+            For example, if I wanted to search for the bus communication name of the Wii, I wouldn't type into google
+            "What is the name of the bus communcation of the Nintendo Wii". I would ask "Wii bus communication name". Narrowing down my search greatly.
+        </p>
+        <p>
+            This is caused by how the searching algorithm for google works, basically, it takes the words you give it, removes the filler words, and spits out a result.
+            If we can narrow down the words it needs to remove, aswell as the words it keeps, we can narrow down our search results
+        </p>
+        <p> <!-- Image of the searches to be put in this paragraph -->
+            <div>
+                <button onclick="toggle_FQ()" id="FQ">Full Question</button>
+                <img src="" id="full_question" onclick="toggle_FQ()">
+            </div>
+
+            
+            <div>
+                <button onclick="toggle_nFQ()" id="nFQ">Without quotations:</button>
+                <img src="" id="not_full_question" onclick="toggle_nFQ()">
+            </div>
+        </p>
+    </div>
+
+    <div class="tip2"> <!-- Tip #2 div -->
+        <p>
+            <h3>The #2 tip I could give is..</h3> 
             to use quotations ( "" ) around the word you want to find, this'll assure that the word you're looking for is in the web pages.
         </p>
         <p>
@@ -26,26 +54,22 @@
             If you need to find multiple words, you can attach quotations around each word, optionally also put a plus symbol ( + ) in there!
         </p>
         <p> <!-- Image of the search to be put in this paragraph -->
-            
-            <p class="with_quotations_text">
-                With Quotations:
-            </p>
 
             <div>
-                <img src="Images/WithQuotations.png" class="with_quotations">
+                <button onclick="toggle_Quotations()" id="QT">With Quotations:</button>
+                <img src="Images/WithQuotations.png" id="with_quotations" onclick="toggle_Quotations()">
             </div>
 
-            <p class="without_quotations_text">
-                Without quotations:
-            </p>
             
             <div>
-                <img src="Images/WithoutQuotiations.png" class="no_quotations">
+                <button onclick="toggle_nQuotations()" id="NQT">Without quotations:</button>
+                <img src="Images/WithoutQuotiations.png" id="no_quotations" onclick="toggle_nQuotations()">
             </div>
         </p>
     </div>
 
-    <div> 
+
+    <div class="Yasahiro"> 
         <p> Fucking </p>
         <p> - Yasahiro </p>
     </div>
